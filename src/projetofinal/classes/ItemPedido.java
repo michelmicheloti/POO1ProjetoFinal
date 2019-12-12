@@ -7,7 +7,7 @@ package projetofinal.classes;
 
 /**
  *
- * @author miche
+  * @author Fernando Dias Motta 180016 / Michel Micheloti 181003
  */
 public class ItemPedido {
     private int numero;

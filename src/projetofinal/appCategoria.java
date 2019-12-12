@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author miche
+ * @author Fernando Dias Motta 180016 / Michel Micheloti 181003
  */
 public final class appCategoria {
     

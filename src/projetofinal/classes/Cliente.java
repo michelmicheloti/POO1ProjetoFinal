@@ -9,10 +9,10 @@ import java.util.ArrayList;
 
 /**
  *
- * @author miche
+ * @author Fernando Dias Motta 180016 / Michel Micheloti 181003
  */
 public class Cliente {
-    private int codigo;
+    private int codigo=0;
     private String nome;
     private String endereco;
     private String telefone;

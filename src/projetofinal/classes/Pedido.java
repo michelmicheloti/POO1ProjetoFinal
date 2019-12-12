@@ -10,7 +10,7 @@ import java.util.Date;
 
 /**
  *
- * @author miche
+ * @author Fernando Dias Motta 180016 / Michel Micheloti 181003
  */
 public class Pedido {
     private long numero;
