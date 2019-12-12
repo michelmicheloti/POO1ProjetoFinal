@@ -5,12 +5,8 @@
  */
 package projetofinal;
 
-import com.sun.security.ntlm.Client;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
 import java.util.Scanner;
-import java.util.TreeSet;
 import projetofinal.classes.Cliente;
 
 /**
@@ -31,7 +27,8 @@ public final class appManutencaoCliente {
             System.out.println("2 - Remover Cliente");
             System.out.println("3 - Alterar Cliente");
             System.out.println("4 - Pesquisar Cliente");
-            System.out.println("5 - Sair");
+            System.out.println("5 - Litar Cliente");
+            System.out.println("6 - Sair");
             System.out.println("Digite uma opção: ");
             op = s.nextInt();
 
@@ -82,6 +79,7 @@ public final class appManutencaoCliente {
             if (cliente.get(cod) != null) {
                 System.out.println("O Cliente selecionado para ser excluido: " + cliente.get(cod).getNome());
                 cliente.remove(cod);
+                System.out.println("*** Cliente excluido ***");
                 s.equals("n");
             } else {
                 System.out.println("Cliente não existe!");

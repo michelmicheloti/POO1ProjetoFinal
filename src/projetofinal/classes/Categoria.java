@@ -18,6 +18,10 @@ public class Categoria {
         this.descricao = descricao;
     }
 
+    public static int getCod() {
+        return cod;
+    }
+
     public String getDescricao() {
         return descricao;
     }
